@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#start-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#server-status {
+    font-size: 20px;
+    font-weight: bold;
+}
