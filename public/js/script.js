@@ -1,5 +1,5 @@
 // Vérifier le statut du serveur
-fetch('/server/status')
+fetch('/server-status')
     .then(response => response.json())
     .then(data => {
         const statusText = document.getElementById('server-status');
