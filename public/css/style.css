@@ -16,18 +16,22 @@ body {
 
 /* Couleurs des boutons selon l'état du serveur */
 .server-online .start-button {
-    background-color: #4CAF50;
+    background-color: #4CAF50; /* Vert pour le bouton START quand le serveur est en ligne */
 }
 
-.server-offline .start-button,
+.server-offline .start-button {
+    background-color: #ccc; /* Gris pour le bouton START quand le serveur est hors ligne */
+}
+
 .server-online .stop-button {
-    background-color: #ccc;
+    background-color: #ec0c0c; /* Rouge pour le bouton STOP quand le serveur est en ligne */
 }
 
-.server-online .stop-button {
-    background-color: #ec0c0c;
+.server-offline .stop-button {
+    background-color: #ccc; /* Gris pour le bouton STOP quand le serveur est hors ligne */
 }
 
+/* Couleur de fond pour le bouton RESTART, peu importe l'état du serveur */
 .restart-button {
     background-color: #ee850d;
 }
