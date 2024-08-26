@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "RAPHTER1",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAPHTER1/Minecraft-Fabric-Server-1.21.1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RAPHTER1/Minecraft-Fabric-Server-1.21.1/issues"
+  },
+  "homepage": "https://github.com/RAPHTER1/Minecraft-Fabric-Server-1.21.1#readme",
+  "description": ""
 }
