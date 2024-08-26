@@ -4,19 +4,34 @@ body {
     margin-top: 50px;
 }
 
-#start-btn {
+#controls {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-#start-btn:disabled {
+.server-online.start-button {
+    background-color: #4CAF50;
+}
+
+.server-offline.start-button {
     background-color: #ccc;
-    cursor: not-allowed;
+}
+
+.server-online.stop-button {
+    background-color: #ec0c0c;
+}
+
+.server-offline.stop-button {
+    background-color: #ccc;
+}
+
+.restart-button {
+    background-color: #ee850d;
 }
 
 #server-status {
