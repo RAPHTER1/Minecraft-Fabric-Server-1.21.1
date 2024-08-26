@@ -4,7 +4,7 @@ body {
     margin-top: 50px;
 }
 
-#controls {
+.control-button {
     padding: 10px 20px;
     font-size: 18px;
     color: white;
@@ -14,20 +14,18 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.server-online.start-button {
+/* Couleurs des boutons selon l'état du serveur */
+.server-online .start-button {
     background-color: #4CAF50;
 }
 
-.server-offline.start-button {
+.server-offline .start-button,
+.server-online .stop-button {
     background-color: #ccc;
 }
 
-.server-online.stop-button {
+.server-online .stop-button {
     background-color: #ec0c0c;
-}
-
-.server-offline.stop-button {
-    background-color: #ccc;
 }
 
 .restart-button {
